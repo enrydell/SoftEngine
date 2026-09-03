@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>GPU Engine (BabylonJS WebGL)</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #111;
+      color: #fff;
+      font-family: monospace;
+      overflow: hidden;
+    }
+
+    #fpsCounter {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 6px 12px;
+      border-radius: 4px;
+      color: #00ff00;
+      font-size: 14px;
+    }
+
+    canvas {
+      width: 100vw;
+      height: 100vh;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="fpsCounter">GPU FPS: 0</div>
+  <canvas id="renderCanvas"></canvas>
+  <script type="module" src="/src/GPU.ts"></script>
+</body>
+
+</html>
