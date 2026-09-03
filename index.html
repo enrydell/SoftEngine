@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>SoftEngine</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #111;
+      color: #fff;
+      font-family: monospace;
+    }
+
+    #canvas-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    #fpsCounter {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 4px 8px;
+      border-radius: 4px;
+      color: #00ff00;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="canvas-container">
+    <canvas id="frontBuffer" width="800" height="600" style="background-color: black;"></canvas>
+    <div id="fpsCounter">FPS: 0</div>
+  </div>
+  <script type="module" src="/src/index.ts"></script>
+</body>
+
+</html>

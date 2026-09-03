@@ -1,0 +1,33 @@
+{
+  "name": "softengine",
+  "version": "1.0.0",
+  "description": "A 3D software engine made with TypeScript/JavaScript",
+  "homepage": "https://github.com/enrydell/SoftEngine#readme",
+  "bugs": {
+    "url": "https://github.com/enrydell/SoftEngine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/enrydell/SoftEngine.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "vite",
+    "startc": "scriptc run src/index.ts",
+    "build:static": "scriptc build src/index.ts -o dist/app",
+    "build:dynamic": "scriptc build src/index.ts --dynamic -o dist/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "scriptc": "^0.0.36",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.25.0"
+  }
+}
