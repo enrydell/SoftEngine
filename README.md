@@ -33,8 +33,8 @@ Clone the repository and install the dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/softengine-demo.git
-cd softengine-demo
+git clone https://github.com/enrydell/SoftEngine
+cd SoftEngine
 
 # Install dependencies
 npm install
@@ -45,7 +45,7 @@ npm install
 Start the local Vite development server:
 
 ```bash
-npx vite
+npm start
 ```
 
 Once running, Vite will display your local server URL (typically `http://localhost:5173`).
