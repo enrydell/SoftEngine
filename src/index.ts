@@ -7,7 +7,7 @@ var canvas: HTMLCanvasElement;
 var device: Device;
 var meshes: Mesh[] = [];
 var camera: Camera;
-var rendersManyMeshes = true; // Flag to determine if we are rendering many meshes or just one
+var rendersManyMeshes = false; // Flag to determine if we are rendering many meshes or just one
 
 // FPS tracking variables
 var fpsElement: HTMLElement | null;

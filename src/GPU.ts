@@ -10,7 +10,7 @@ var fpsElement: HTMLElement | null;
 var activeMeshes: TransformNode[] = [];
 
 // Flag to determine if we are rendering many meshes or just one
-var rendersManyMeshes = true;
+var rendersManyMeshes = false;
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init, false);
